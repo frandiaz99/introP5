@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <!--CSS-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <title>Portafolio</title>
+                <!---Font-family--->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <!--iconos-->
+    <script src="https://kit.fontawesome.com/6bba4b2c8d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <nav class="navbar_nav sticky-top">
+
+        <div class="logo_navbar"><a href="#">F<span class="D">D</span>M</a></div>
+            <label for="btn" class="icon_nav">
+                <span class="fa fa-bars"></span>
+            </label>
+            <input class="input1" type="checkbox" id="btn">
+
+            <ul>
+                <li><a href="#1">Inicio</a></li>
+                <li><a href="#2">Portafolio</a></li>
+                <li><a href="#3">Sobre Mi</a></li>
+                <li><a href="#4">Contacto</a></li>
+            </ul>
+    </nav>
+
+    <div class="inicio" id="1">
+        
+        <div class="text">
+            <img src="perfil.jpg" alt="">
+            <h2 class="name item">Francisco <span>Diaz</span> Malbran</h2>
+            <h3 class="paragraph item">Estudiar o vivir de planes sociales, esa es la cuestion</h3>
+        </div>
+        
+    </div>
+    
+    <div class="portafolio" id="2">
+        <div class="portafolio-heading">
+            <h2>PORTAFOLIO</h2>
+        </div>
+
+        <div class="galery">
+
+            <figure>
+                <img src="colorGame.jpg" alt="">
+                <div class="capa">
+                    <h3>COLOR GAME</h3>
+                    <p>Que tan alto es tu conocimineto en colores RGB</p>
+                        <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://gracious-neumann-636b86.netlify.app/" target="_blank"><i class="fas fa-globe"></i></a>
+                </div>
+
+            </figure>
+
+            <figure>
+                <img src="toDoList.jgp" alt="">
+                <div class="capa">
+                    <h3>TO DO LIST</h3>
+                    <p>Lista de tareas para que que ordenes un poco tu vida</p>
+                        <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://suspicious-agnesi-e641bd.netlify.app" target="_blank"><i class="fas fa-globe"></i></a>
+                </div>
+
+            </figure>
+
+            <figure>
+                <img src="wather1.jpg" alt="">
+                <div class="capa">
+                    <h3>WEATHER CHANNEL</h3>
+                    <p>Conoce el clima de tu proximo destino</p>
+                        <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://gifted-ptolemy-59143a.netlify.app" target="_blank"><i class="fas fa-globe"></i></a>
+                </div>
+
+            </figure>
+
+        </div>
+    </div>
+
+    <div class="sobreMi" id="3">
+            
+        <img src="perfil.jpg" alt="">
+
+        <div class="description">
+            <h2 ><span>SOBRE </span> MI</h2>
+            <div class="divisor"></div>
+
+            
+            <p>
+                Estudiante de ingenieria, productor asesor de seguros pero a punto de dejar todo para dedicarme a la programacion
+            </p>
+            
+            <a href="#"><button class="more-info">Mas informacion</button></a>
+        </div>
+    </div>
+    <div class="Contacto" id="4">
+        <div class="logo">
+            <h2>CONTACTO</h2>
+        </div>
+        
+        <div class="contact-wrapper">
+            
+            <div class="contact-form">
+                       
+                <form action="https://formspree.io/f/mnqlypbo" method="post">
+                    <p>
+                        <label >Nombre</label>
+                        <input type="text" name="fullname">
+                    </p>
+                    <p>
+                        <label f>Apellido</label>
+                        <input type="text" name="lastname">
+                    </p>
+                    <p>
+                        <label >Direccion de Correo</label>
+                        <input type="text" name="email">
+                    </p>
+                    <p>
+                        <label >Telefeno</label>
+                        <input type="tel" name="phone">
+                    </p>
+                    <p class="block"> 
+                        <label >Mensaje</label>
+                        <textarea name="message" rows="3"></textarea>
+                    </p>
+                    <p class="block">
+                        <button name="button">Enviar</button>
+                    </p>
+                </form>
+            </div>
+            <div class="contact-info">
+                <h4>Info.</h4>
+                <ul>
+                    <li><i class="fas fa-phone"><span></span>+54 9 555555 5555</span></i></li>
+                    <li><i class="far fa-envelope-open"><span></span>fdmalbran@gmail.com</span></i></li>
+                </ul>
+                <p>
+                    Ante necesidad o consulta no dudes en contactarme
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <h2>Francisco Diaz Malbran</h2>
+        <h5>Tu mejor opcion</h5>
+        <div class="social-network">
+            <a href="https://www.instagram.com/frandiazmalbran/" target="_blank"><i class="fab fa-instagram-square"></i></a>
+            <a href="https://twitter.com/fdiazmalbran"><i class="fab fa-twitter-square" target="_blank"></i></a>
+            <a href="https://www.linkedin.com/in/francisco-diaz-308b631a1/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+
+</body>
+</html>
